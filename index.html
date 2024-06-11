@@ -4,27 +4,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Audio Player</title>
-	<style>
-		body {
-			width: 100vw;
-			height: 100vh;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			background: #ffffff;
-			margin: 0;
-		}
-	</style>
+	<title>Video Player</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<audio-player title="My cool super long named audio sound"
-	              src="./audioLungo.mp3"
-				  style="display: none"
-	              preload autoplay loop
-	               ></audio-player>
-				   <span class="flex"> Marco Fracasia </span>
+	<div id="spinner"></div>
+	<video autoplay loop src="video.mp4"></video>
 
-	<script src="audioplayer.js"></script>
+	<script src="video.js"></script>
 </body>
 </html>
